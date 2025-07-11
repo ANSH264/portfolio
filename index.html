@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ansh Saini - Web Developer Portfolio</title>
+    <meta
+      name="description"
+      content="Professional portfolio of Ansh Saini, a detail-oriented Web Developer with 1+ years of experience in full-stack web development"
+    />
+
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <!-- <span class="logo-text">&lt;/&gt; Ansh Saini</span> -->
+          <span class="logo-text">Portfolio</span>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a href="#journey" class="nav-link">Journey</a>
+          </li> -->
+          <li class="nav-item">
+            <a href="#experience" class="nav-link">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <div class="typing-wrapper">
+              <!-- <span class="greeting"></span> -->
+              <h1 class="hero-name">Hello I'm Ansh Saini</h1>
+              <div class="typing-container">
+                <span class="typed-text"></span>
+                <span class="cursor">&nbsp;</span>
+              </div>
+            </div>
+            <p class="hero-description">
+              Detail-oriented Web Developer with 1+ years of experience in web
+              application development, specializing in creating scalable web
+              solutions and user-friendly interfaces.
+            </p>
+            <div class="hero-stats">
+              <div class="stat">
+                <span class="stat-number">1+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">15+</span>
+                <span class="stat-label">Technologies</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">3</span>
+                <span class="stat-label">Major Projects</span>
+              </div>
+            </div>
+            <div class="hero-buttons">
+              <a href="#contact" class="btn btn-primary">Get In Touch</a>
+              <a href="#" class="btn btn-secondary" id="download-resume">
+                <i class="fas fa-download"></i> Download Resume
+              </a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="profile-card-cinematic">
+              <div class="profile-avatar-cinematic">
+                <img src="assets/ansh-photo.jpg" alt="Ansh Saini" />
+              </div>
+              <div class="profile-details-cinematic">
+                <h3>Ansh Saini</h3>
+                <p class="profile-title">Web Developer</p>
+                <p class="profile-location">
+                  <i class="fas fa-map-marker-alt"></i> Kanpur, UP, India
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">
+            Get to know more about my background and expertise
+          </p>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <div class="about-card">
+              <h3>Professional Background</h3>
+              <p>
+                I am a detail-oriented Web Developer with over a year of
+                hands-on experience in web application development. My expertise
+                lies in creating scalable web solutions and crafting
+                user-friendly interfaces that enhance user experience.
+              </p>
+              <p>
+                Throughout my career, I've specialized in both front-end and
+                back-end development, with a strong focus on responsive design,
+                cross-browser compatibility, and server-side application
+                development. I'm passionate about leveraging technology to solve
+                real-world problems and drive operational efficiency.
+              </p>
+            </div>
+
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="highlight-content">
+                  <h4>Education</h4>
+                  <p>Bachelor of Technology (Computer Science & Engineering)</p>
+                  <span class="highlight-detail"
+                    >Uttar Pradesh Technical University (2018-2022)</span
+                  >
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <i class="fas fa-briefcase"></i>
+                </div>
+                <div class="highlight-content">
+                  <h4>Current Role</h4>
+                  <p>Web Developer at IIT Kanpur</p>
+                  <span class="highlight-detail"
+                    >Startup Incubation and Innovation Centre</span
+                  >
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <i class="fas fa-language"></i>
+                </div>
+                <div class="highlight-content">
+                  <h4>Languages</h4>
+                  <p>English (Fluent) • Hindi (Native)</p>
+                  <span class="highlight-detail"
+                    >Multilingual Communication</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-skills-preview">
+            <h3>Core Competencies</h3>
+            <div class="competency-grid">
+              <div class="competency-item">
+                <i class="fas fa-code"></i>
+                <span>Full-Stack Development</span>
+              </div>
+              <div class="competency-item">
+                <i class="fas fa-mobile-alt"></i>
+                <span>Responsive Design</span>
+              </div>
+              <div class="competency-item">
+                <i class="fas fa-database"></i>
+                <span>Database Management</span>
+              </div>
+              <div class="competency-item">
+                <i class="fas fa-server"></i>
+                <span>Server-Side Development</span>
+              </div>
+              <div class="competency-item">
+                <i class="fas fa-bug"></i>
+                <span>Debugging & Testing</span>
+              </div>
+              <div class="competency-item">
+                <i class="fas fa-users"></i>
+                <span>Team Collaboration</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-subtitle">Technologies and tools I work with</p>
+        </div>
+
+        <div class="skills-grid-main">
+          <div class="circular-skill">
+            <div class="skill-circle">
+              <i class="fab fa-html5" style="color: #e34f26"></i>
+            </div>
+            <div class="skill-label">HTML</div>
+          </div>
+
+          <div class="circular-skill">
+            <div class="skill-circle">
+              <i class="fab fa-css3-alt" style="color: #1572b6"></i>
+            </div>
+            <div class="skill-label">CSS</div>
+          </div>
+
+          <div class="circular-skill">
+            <div class="skill-circle">
+              <i class="fab fa-js-square" style="color: #f7df1e"></i>
+            </div>
+            <div class="skill-label">JavaScript</div>
+          </div>
+
+          <div class="circular-skill">
+            <div class="skill-circle">
+              <i class="fab fa-react" style="color: #61dafb"></i>
+            </div>
+            <div class="skill-label">React</div>
+          </div>
+
+          <div class="circular-skill">
+            <div class="skill-circle">
+              <i class="fab fa-git-alt" style="color: #f05032"></i>
+            </div>
+            <div class="skill-label">Git</div>
+          </div>
+
+          <div class="circular-skill">
+            <div class="skill-circle">
+              <i class="fas fa-database" style="color: #4479a1"></i>
+            </div>
+            <div class="skill-label">MySQL</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Development Journey Timeline -->
+    <!-- <section id="journey" class="journey">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Development Journey</h2>
+          <p class="section-subtitle">
+            Interactive timeline of my learning milestones and growth
+          </p>
+        </div>
+
+        <div class="interactive-timeline">
+          <div class="timeline-track"></div>
+
+          <div
+            class="milestone active"
+            data-year="2018"
+            data-category="education"
+          >
+            <div class="milestone-marker">
+              <div class="milestone-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div class="milestone-year">2018</div>
+            </div>
+            <div class="milestone-content">
+              <h3>Started BTech Journey</h3>
+              <p>
+                Began Computer Science & Engineering at Uttar Pradesh Technical
+                University
+              </p>
+              <div class="milestone-tags">
+                <span class="tag education">Education</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="milestone" data-year="2019" data-category="learning">
+            <div class="milestone-marker">
+              <div class="milestone-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <div class="milestone-year">2019</div>
+            </div>
+            <div class="milestone-content">
+              <h3>First Steps in Programming</h3>
+              <p>
+                Learned fundamentals of programming with C/C++ and basic web
+                technologies
+              </p>
+              <div class="milestone-tags">
+                <span class="tag learning">Learning</span>
+                <span class="tag technical">Programming</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="milestone" data-year="2020" data-category="learning">
+            <div class="milestone-marker">
+              <div class="milestone-icon">
+                <i class="fab fa-html5"></i>
+              </div>
+              <div class="milestone-year">2020</div>
+            </div>
+            <div class="milestone-content">
+              <h3>Web Development Foundations</h3>
+              <p>
+                Mastered HTML5, CSS3, and JavaScript. Built first interactive
+                websites
+              </p>
+              <div class="milestone-tags">
+                <span class="tag learning">Learning</span>
+                <span class="tag technical">Frontend</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="milestone" data-year="2021" data-category="learning">
+            <div class="milestone-marker">
+              <div class="milestone-icon">
+                <i class="fas fa-server"></i>
+              </div>
+              <div class="milestone-year">2021</div>
+            </div>
+            <div class="milestone-content">
+              <h3>Backend Development & Frameworks</h3>
+              <p>
+                Learned PHP, Laravel, Node.js, and database management with
+                MySQL
+              </p>
+              <div class="milestone-tags">
+                <span class="tag learning">Learning</span>
+                <span class="tag technical">Backend</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="milestone" data-year="2022" data-category="achievement">
+            <div class="milestone-marker">
+              <div class="milestone-icon">
+                <i class="fas fa-trophy"></i>
+              </div>
+              <div class="milestone-year">2022</div>
+            </div>
+            <div class="milestone-content">
+              <h3>Graduation & Career Start</h3>
+              <p>
+                Completed BTech and began professional web development career
+              </p>
+              <div class="milestone-tags">
+                <span class="tag achievement">Achievement</span>
+                <span class="tag career">Career</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="milestone" data-year="2023" data-category="career">
+            <div class="milestone-marker">
+              <div class="milestone-icon">
+                <i class="fas fa-briefcase"></i>
+              </div>
+              <div class="milestone-year">2023</div>
+            </div>
+            <div class="milestone-content">
+              <h3>Professional Web Developer</h3>
+              <p>
+                Joined Startup Incubation and Innovation Centre as Web Developer
+              </p>
+              <div class="milestone-tags">
+                <span class="tag career">Career</span>
+                <span class="tag professional">Professional</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="milestone" data-year="2024" data-category="learning">
+            <div class="milestone-marker">
+              <div class="milestone-icon">
+                <i class="fab fa-react"></i>
+              </div>
+              <div class="milestone-year">2024</div>
+            </div>
+            <div class="milestone-content">
+              <h3>Modern Frontend Mastery</h3>
+              <p>
+                Advanced skills in React, modern JavaScript frameworks, and
+                responsive design
+              </p>
+              <div class="milestone-tags">
+                <span class="tag learning">Learning</span>
+                <span class="tag technical">Modern Tech</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="milestone" data-year="2025" data-category="current">
+            <div class="milestone-marker">
+              <div class="milestone-icon">
+                <i class="fas fa-rocket"></i>
+              </div>
+              <div class="milestone-year">2025</div>
+            </div>
+            <div class="milestone-content">
+              <h3>Continuous Growth</h3>
+              <p>
+                Expanding expertise in full-stack development and exploring new
+                technologies
+              </p>
+              <div class="milestone-tags">
+                <span class="tag current">Current</span>
+                <span class="tag growth">Growth</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-filters">
+          <button class="filter-btn active" data-filter="all">
+            All Milestones
+          </button>
+          <button class="filter-btn" data-filter="education">Education</button>
+          <button class="filter-btn" data-filter="learning">Learning</button>
+          <button class="filter-btn" data-filter="career">Career</button>
+          <button class="filter-btn" data-filter="achievement">
+            Achievement
+          </button>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Work Experience</h2>
+          <p class="section-subtitle">
+            My professional journey and achievements
+          </p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="timeline-icon">
+                <i class="fas fa-briefcase"></i>
+              </div>
+            </div>
+            <div class="timeline-content">
+              <div class="experience-card">
+                <div class="experience-header">
+                  <div class="experience-title">
+                    <h3>Web Developer</h3>
+                    <p class="company">
+                      Startup Incubation and Innovation Centre, IIT Kanpur
+                    </p>
+                  </div>
+                  <div class="experience-duration">
+                    <span class="duration">Jan 2024 - Dec 2024</span>
+                    <span class="status active">Current</span>
+                  </div>
+                </div>
+
+                <div class="experience-achievements">
+                  <div class="achievement-item">
+                    <div class="achievement-icon">
+                      <i class="fas fa-code"></i>
+                    </div>
+                    <div class="achievement-text">
+                      <h4>Web Application Development</h4>
+                      <p>
+                        Developed and implemented robust web application modules
+                        (Timesheet, Resource Allocation, Bug Tracker) using PHP
+                        and Laravel framework, directly tailored to management
+                        needs to optimize operational efficiencies.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="achievement-item">
+                    <div class="achievement-icon">
+                      <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="achievement-text">
+                      <h4>Responsive UI Development</h4>
+                      <p>
+                        Utilized HTML, CSS, and JavaScript to create responsive
+                        and user-friendly client-side web applications,
+                        significantly enhancing user experience and
+                        functionality.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="achievement-item">
+                    <div class="achievement-icon">
+                      <i class="fab fa-docker"></i>
+                    </div>
+                    <div class="achievement-text">
+                      <h4>Containerization & Deployment</h4>
+                      <p>
+                        Employed Docker for containerization and deployment,
+                        ensuring efficient application management and
+                        accelerating time-to-market.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="achievement-item">
+                    <div class="achievement-icon">
+                      <i class="fas fa-server"></i>
+                    </div>
+                    <div class="achievement-text">
+                      <h4>Server-Side Architecture</h4>
+                      <p>
+                        Contributed to the design and development of server-side
+                        applications capable of handling HTTP requests, ensuring
+                        seamless data flow and functionality.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="achievement-item">
+                    <div class="achievement-icon">
+                      <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="achievement-text">
+                      <h4>Performance Optimization</h4>
+                      <p>
+                        Applied best coding practices to enhance web interfaces,
+                        directly contributing to improved digital marketing
+                        initiatives and overall system performance.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tech-stack">
+                  <h4>Technologies Used:</h4>
+                  <div class="tech-tags">
+                    <span class="tech-tag">PHP</span>
+                    <span class="tech-tag">Laravel</span>
+                    <span class="tech-tag">HTML5</span>
+                    <span class="tech-tag">CSS3</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">Docker</span>
+                    <span class="tech-tag">MySQL</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="projects-background">
+        <div class="floating-shapes">
+          <div class="shape shape-1"></div>
+          <div class="shape shape-2"></div>
+          <div class="shape shape-3"></div>
+          <div class="shape shape-4"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">
+            Key projects developed during my tenure at IIT Kanpur
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Timesheet Module -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <h3 class="project-title">Timesheet Management System</h3>
+            </div>
+            <div class="project-content">
+              <p class="project-description">
+                A comprehensive timesheet management module designed to track
+                employee work hours, project allocations, and productivity
+                metrics. Built with Laravel backend and responsive frontend.
+              </p>
+              <div class="project-features">
+                <h4>Key Features:</h4>
+                <ul>
+                  <li>Time tracking with project categorization</li>
+                  <li>Automated reporting and analytics</li>
+                  <li>Multi-user role management</li>
+                  <li>Export functionality for data analysis</li>
+                </ul>
+              </div>
+              <div class="project-tech">
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Bootstrap</span>
+              </div>
+            </div>
+            <div class="project-impact">
+              <div class="impact-item">
+                <i class="fas fa-chart-line"></i>
+                <span>Improved operational efficiency by 35%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Resource Allocation Module -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-icon">
+                <i class="fas fa-users-cog"></i>
+              </div>
+              <h3 class="project-title">Resource Allocation System</h3>
+            </div>
+            <div class="project-content">
+              <p class="project-description">
+                An intelligent resource allocation system that optimizes human
+                and material resource distribution across multiple projects
+                based on availability, skills, and project requirements.
+              </p>
+              <div class="project-features">
+                <h4>Key Features:</h4>
+                <ul>
+                  <li>Dynamic resource matching algorithm</li>
+                  <li>Skill-based assignment system</li>
+                  <li>Real-time availability tracking</li>
+                  <li>Conflict resolution and notifications</li>
+                </ul>
+              </div>
+              <div class="project-tech">
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">AJAX</span>
+                <span class="tech-tag">Chart.js</span>
+              </div>
+            </div>
+            <div class="project-impact">
+              <div class="impact-item">
+                <i class="fas fa-balance-scale"></i>
+                <span>Optimized resource utilization by 40%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bug Tracker Module -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-icon">
+                <i class="fas fa-bug"></i>
+              </div>
+              <h3 class="project-title">Bug Tracking System</h3>
+            </div>
+            <div class="project-content">
+              <p class="project-description">
+                A comprehensive bug tracking and issue management system that
+                streamlines the software development lifecycle with advanced
+                reporting and team collaboration features.
+              </p>
+              <div class="project-features">
+                <h4>Key Features:</h4>
+                <ul>
+                  <li>Priority-based issue categorization</li>
+                  <li>Automated workflow management</li>
+                  <li>Team collaboration and comments</li>
+                  <li>Integration with development tools</li>
+                </ul>
+              </div>
+              <div class="project-tech">
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">RESTful APIs</span>
+                <span class="tech-tag">Docker</span>
+              </div>
+            </div>
+            <div class="project-impact">
+              <div class="impact-item">
+                <i class="fas fa-tachometer-alt"></i>
+                <span>Reduced bug resolution time by 50%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="particles-container">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+      </div>
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">
+            Let's discuss your next project or opportunity
+          </p>
+        </div>
+
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-card">
+              <h3>Contact Information</h3>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-details">
+                  <span class="contact-label">Email</span>
+                  <a href="mailto:anshsaini504@gmail.com" class="contact-value"
+                    >anshsaini504@gmail.com</a
+                  >
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-details">
+                  <span class="contact-label">Phone</span>
+                  <a href="tel:+917905487419" class="contact-value"
+                    >+91 7905487419</a
+                  >
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-details">
+                  <span class="contact-label">Location</span>
+                  <span class="contact-value"
+                    >Kanpur, Uttar Pradesh, India</span
+                  >
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-briefcase"></i>
+                </div>
+                <div class="contact-details">
+                  <span class="contact-label">Current Position</span>
+                  <span class="contact-value">Web Developer at IIT Kanpur</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="availability-card">
+              <h4>Availability</h4>
+              <div class="availability-status">
+                <span class="status-indicator available"></span>
+                <span>Available for freelance projects</span>
+              </div>
+              <p>
+                Open to discussing new opportunities and collaborations in web
+                development.
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-form-container">
+            <form class="contact-form" id="contact-form">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required />
+                <span class="error-message" id="name-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required />
+                <span class="error-message" id="email-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required />
+                <span class="error-message" id="subject-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  required
+                ></textarea>
+                <span class="error-message" id="message-error"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-full">
+                <i class="fas fa-paper-plane"></i>
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-text">
+            <p>&copy; 2024 Ansh Saini. All rights reserved.</p>
+            <p>Built with ❤️ using HTML5, CSS3, and JavaScript</p>
+          </div>
+          <div class="footer-links">
+            <a href="#home">Back to Top</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+  </body>
+</html>
